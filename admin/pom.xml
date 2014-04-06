@@ -145,10 +145,10 @@
             <groupId>com.mycompany</groupId>
             <artifactId>core</artifactId>
         </dependency>
-        <dependency>
+       <!--  <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
@@ -161,5 +161,11 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
         </dependency>
+        
+        <dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		</dependency> 
+        
     </dependencies>
 </project>
