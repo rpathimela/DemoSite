@@ -22,12 +22,12 @@ INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_
 
 -- Sample data for use with the org.springframework.security.authentication.encoding.ShaPasswordEncoder which is
 -- configured OOB in the 'production' environment. This is the password 'admin' salted with the user's primary key
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-1,'admin@stylemycase.in','admin','Administrator','c25519e7c79bee0b21cb6f3636c4b08e1161a1f9', true);
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-2,'merchandise@stylemycase.in','merchandise','Merchandise Manager','524cd27c55b237be4abab4bad9c30077e73e8095', true);
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-3,'promo@stylemycase.in','promo','Promotion Manager','c2e4e7387afbcada3f650e896f43bcd71846c09e', true);
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-4,'csr@stylemycase.in','csr','CSR','94870e2edbc43e860acb4f6455743c737492d62e', true);
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-5,'cms_edit@stylemycase.in','cmsEditor','CMS Editor','9d8155b591446b5f6e7d7bebae1401765f8988ae', true);
-INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-6,'cms_approver@stylemycase.in','cmsApprover','CMS Approver','efca1f2d13a506925e0e5721789ee3b9ed619204', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-1,'admin@stylemycase.in','admin','Administrator','c25519e7c79bee0b21cb6f3636c4b08e1161a1f9', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-2,'merchandise@stylemycase.in','merchandise','Merchandise Manager','524cd27c55b237be4abab4bad9c30077e73e8095', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-3,'promo@stylemycase.in','promo','Promotion Manager','c2e4e7387afbcada3f650e896f43bcd71846c09e', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-4,'csr@stylemycase.in','csr','CSR','94870e2edbc43e860acb4f6455743c737492d62e', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-5,'cms_edit@stylemycase.in','cmsEditor','CMS Editor','9d8155b591446b5f6e7d7bebae1401765f8988ae', true);
+-- INSERT INTO BLC_ADMIN_USER (ADMIN_USER_ID, EMAIL, LOGIN, NAME, PASSWORD, ACTIVE_STATUS_FLAG) VALUES (-6,'cms_approver@stylemycase.in','cmsApprover','CMS Approver','efca1f2d13a506925e0e5721789ee3b9ed619204', true);
 
 --
 -- Roles for sample admin users.
