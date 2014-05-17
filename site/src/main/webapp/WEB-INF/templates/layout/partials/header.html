@@ -37,7 +37,7 @@
         <div id="languages">
             <span id="selectedLocale" th:text="${session.blLocale.localeCode}" style="display: none" />
 
-            <a href="javascript:;" onclick="BLC.addUrlParam(document.location.search, 'blLocaleCode', 'en_US')">
+           <!--  <a href="javascript:;" onclick="BLC.addUrlParam(document.location.search, 'blLocaleCode', 'en_US')">
                 <img id="en_US" src="img/flags/United-States.png" th:src="@{/img/flags/United-States.png}" alt="United States" title="English" />
             </a>
 
@@ -54,11 +54,11 @@
             </a>
             <a href="javascript:;" onclick="BLC.addUrlParam(document.location.search, 'blLocaleCode', 'fr_FR')">
                 <img id="fr_FR" src="img/flags/Mexico.png" th:src="@{/img/flags/France.png}" alt="France" title="French (France)" />
-            </a>
+            </a> -->
 
         </div>
 
-        <div id="logo"><h1><a th:href="@{/}">The Heat Clinic Home</a></h1></div>
+        <div id="logo"><h1><a th:href="@{/}">Style My Case Home</a></h1></div>
         
         <div id="search">
             <blc:form th:action="@{/search}" method="GET">
